@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Impossible Writing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h1 id="title"><u>The Impossible Writing</u></h1>
+        <h2 id="subtitle">¿Podrias terminar una tarea <span style="color: #f00;"><u>antes de que se acabe el tiempo</u></span>?</h2>
+        <br>
+        <p style="font-size: 23px;">
+            <b>The Impossible Writing consiste en escribir todo lo que quieras con<br>
+            un tiempo limite, puedes exportar tu archivo si llegas a terminar.<br>
+            Pero si se acaba el tiempo, pierdes TODO, sin forma de recuperarlo.</b><br>
+        </p>
+        <p style="font-size: 35px"><b>¡Intentalo!</b></p>
+        <input type="number" id="time" placeholder="Introduce los minutos que tendras" style="width: 300px; text-align: center;"><br>
+        <p style="font-size: 15px; color: #f00;"><b>15 minutos = 15 | 1/2 hora = 30 | 1 hora = 60 | 1 hora y 1/2 = 90 | 2 horas = 120 | 2 horas y 1/2 = 150</b></p>
+        <br>
+        <input type="button" id="startButton" value="  EMPEZAR  ">
+        <p><b>Una herramienta de <a href="https://skeletoos57.github.io/easyhub" style="color: #000;">EasyHub</a></b></p>
+    </div>
+
+
+    <div id="writing">
+        <textarea id="writingArea" rows="7" placeholder="¿¡Que haces!? ¡Apurate que el tiempo corre!"></textarea>
+        <br>
+        <input id="export" type="button" value="SALVAR">
+        <center>
+            <div id="displayTimer"></div>
+            <div id="displayEstimation"></div>
+            <input type="button" id="muteAll" value="Silenciar todos los sonidos">
+        </center>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
